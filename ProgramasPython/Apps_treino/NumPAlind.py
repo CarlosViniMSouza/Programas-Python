@@ -1,0 +1,13 @@
+x = int(input())
+L1 = list(range(101,192,10))
+L2 = list(range(202,293,10))
+L3 = list(range(303,394,10))
+L4 = list(range(404,495,10))
+L5 = list(range(505,596,10))
+L6 = list(range(606,697,10))
+L7 = list(range(707,798,10))
+L8 = list(range(808,899,10))
+L9 = list(range(909,1000,10))
+y = L1+L2+L3+L4+L5+L6+L7+L8+L9
+z = y[0:x]
+print(*z, sep = " - ")
