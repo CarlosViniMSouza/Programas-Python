@@ -1,0 +1,53 @@
+import tkinter as tk
+
+root = tk.Tk()
+S = tk.Scrollbar(root)
+T = tk.Text(root, height=15, width=200)
+S.pack(side=tk.RIGHT, fill=tk.Y)
+T.pack(side=tk.LEFT, fill=tk.Y)
+S.config(command=T.yview)
+T.config(yscrollcommand=S.set)
+quote = """
+('Aula 09 - Modulo')\n")
+('Um módulo é simplesmente um arquivo contendo códigos Python que podem ser explorados por outros programas.')\n")
+('Um módulo completo pode ser chamado por outros programas através da declaração import (importar).')\n")
+
+('só podemos importar módulos para um programa se eles estiverem dentro do mesmo diretório.')\n")
+('editando código do programa area.py das funções retangulo, triangulo e circulo mostrados abaixo:')\n")
+
+("def __retangulo__(lado_a, lado_b):\n")
+("    '''Calculando a área de um retângulo'''\n")
+("    area = lado_a * lado_b\n")
+("    return area\n")
+("def __triangulo__(lado, altura):\n")
+("    '''Calculando a área de um triângulo'''\n")
+("    area = (lado * altura) / 2\n")
+("    return area\n")
+("def __circulo__(raio):\n")
+("    '''Calculando a área de um círculo'''\n")
+("    area = 3.14 * (raio ** 2)\n")
+("    return area\n")
+("##Programa finalizado##\n")
+
+('O area.py esta pronto para servir como um módulo.')\n")
+('Se quisermos usar suas funções ')\n")
+('devemos usar a declaração 'import' para importar area.py.')\n")
+
+('arq011.txt', 'w')\n")
+('>>> import area')\n")
+('>>> ajuda(area)')\n")
+
+('>>> area.retangulo(20, 10)')\n")
+("arq.write('200')\n")
+('>>> area.triangulo(6, 5)\n')\n")
+('15.0')\n")
+('>>> area.circulo(4)')\n")
+('50.24\')\n")
+('>>>')\n")
+('Módulos podem ser muito grandes.)\n")
+('Python tem “baterias inseridas”, possuindo uma biblioteca de módulos')\n")
+('Busque um módulo na biblioteca padrão do Python ou no site PyPI')\n")
+(janela8, text="##fim da aula 09##\n")
+"""
+T.insert(tk.END, quote)
+tk.mainloop()
