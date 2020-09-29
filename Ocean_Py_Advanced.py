@@ -1,4 +1,4 @@
-iniciando a aula:
+#iniciando a aula:
 
 adm = False #Boolean -> Booleano -> Bool
 print(adm)
