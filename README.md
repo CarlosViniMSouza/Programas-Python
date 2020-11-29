@@ -1,4 +1,4 @@
-# Programas Python.org ✌️🤓💻⌨️🖱️
+# Python-Basic ✌️🤓💻⌨️🖱️
 
 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSUTAHW0P36WZTmk48fW89aIJ3xkqIDs04OU0yv--4Z637h-GJk&usqp=CAU" alt ="imagem description" width="650" height="275">
 
